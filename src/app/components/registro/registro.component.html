@@ -1,0 +1,70 @@
+<app-nav></app-nav>
+<div class="contenedor">
+            
+    <div class="contenedorcentrado">
+        <div class="login">
+
+            <!-- Inicio -->
+            <form id="login" class="loginform">
+                <div class="titulo">
+                    Registro:
+                </div>
+                <hr>
+                
+                <input id="name" type="text" placeholder="Nombre:" name="nombre" required>
+
+                <input id="lasname" type="text" placeholder="Apellido:" name="apellido" required>
+
+                <input id="email" type="email" name="email" placeholder="Email:" required>
+                
+                <input id="password" type="password" placeholder="Contraseña:" name="password" required>
+
+                <input id="password" type="password" placeholder="Repita su ontraseña:" name="password" required>
+
+                <div class="correccion">
+                  <div>
+                    <input  type="checkbox" class="termino">
+                  </div>
+                  <div>
+                    <span>Acepto los <a href="">terminos y condiciones</a></span>
+                  </div>
+                </div>
+
+                <hr>
+                <button class="btn" type="submit" title="Ingresar" name="Ingresar">Registrarme</button>
+                
+            </form>
+
+          
+
+            
+        </div>
+        <div class="derecho">
+          
+            <div class="titulo">
+                Bienvenido  a Mixer Cube
+            </div>
+            <hr>
+            <div class="pie-form">
+                <br>
+                <p>
+                  ¡AVISO IMPORTANTE!
+                </p>
+                <p>
+                  Te recomendamos leer nuestros terminos y condiciones ya que 
+                  esto pueden afectar tu compra de forma directa por incumplir 
+                  las reglamentaciones en vigencia de Argentina.
+                </p>
+                <a href="/login">LEER TERMINOS DE USO Y CONDICIONES</a>
+                <br>
+                <hr>
+                <br>
+                <a href="/login">¿Ya tenes Cuenta? Inicia sesión</a>
+                <br>
+                <a href="#">« Volver al inicio</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<app-footer></app-footer>
